@@ -1,0 +1,15 @@
+D:\Api\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Api\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Api\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Api\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+D:\Api\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Api\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+D:\Api\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+D:\Api\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+D:\Api\Infrastructure\bin\Debug\net9.0\Domain.dll
+D:\Api\Infrastructure\bin\Debug\net9.0\Domain.pdb
+D:\Api\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+D:\Api\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+D:\Api\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+D:\Api\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+D:\Api\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll

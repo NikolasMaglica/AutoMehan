@@ -1,0 +1,15 @@
+D:\Api\Architecture\bin\Debug\net9.0\Application.deps.json
+D:\Api\Architecture\bin\Debug\net9.0\Application.dll
+D:\Api\Architecture\bin\Debug\net9.0\Application.pdb
+D:\Api\Architecture\bin\Debug\net9.0\Domain.dll
+D:\Api\Architecture\bin\Debug\net9.0\Domain.pdb
+D:\Api\Architecture\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+D:\Api\Architecture\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Api\Architecture\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+D:\Api\Architecture\obj\Debug\net9.0\Application.AssemblyInfo.cs
+D:\Api\Architecture\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+D:\Api\Architecture\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+D:\Api\Architecture\obj\Debug\net9.0\Application.dll
+D:\Api\Architecture\obj\Debug\net9.0\refint\Application.dll
+D:\Api\Architecture\obj\Debug\net9.0\Application.pdb
+D:\Api\Architecture\obj\Debug\net9.0\ref\Application.dll
