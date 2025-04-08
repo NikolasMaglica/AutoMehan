@@ -7,14 +7,12 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public  interface IBlogService
+    public interface IBlogService
     {
-        Task<Blog> CreateAsync(Blog blog);
-
         Task<List<Blog>> GetAllAsync();
-        Task<List<Blog>> GetByIdAsync(int id);
-        Task<int> UpdateAsync(int id,Blog blog);
+        Task<Blog> GetByIdAsync(int id);
+        Task<Blog> CreateAsync(Blog blog);
+        Task<int> UpdateAsync(int id, Blog blog);
         Task<int> DeleteAsync(int id);
-
     }
 }

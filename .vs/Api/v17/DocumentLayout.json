@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3AB22D61-8402-49F4-9459-F223CBA2D2E7}|Api\\Api.csproj|d:\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3AB22D61-8402-49F4-9459-F223CBA2D2E7}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A07A149-888C-4218-9F72-B41BDE4FC4C4}|Infrastructure\\Infrastructure.csproj|d:\\api\\infrastructure\\migrations\\20250404135256_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A07A149-888C-4218-9F72-B41BDE4FC4C4}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250404135256_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB22D61-8402-49F4-9459-F223CBA2D2E7}|Api\\Api.csproj|d:\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AB22D61-8402-49F4-9459-F223CBA2D2E7}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{485CF323-9A61-4F88-878D-C51748B3CD25}|Application\\Domain.csproj|d:\\api\\application\\domain.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{485CF323-9A61-4F88-878D-C51748B3CD25}|Application\\Domain.csproj|solutionrelative:application\\domain.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,40 +27,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Api\\Api\\appsettings.json",
-              "RelativeDocumentMoniker": "Api\\appsettings.json",
-              "ToolTip": "D:\\Api\\Api\\appsettings.json",
-              "RelativeToolTip": "Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-04T13:53:38.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250404135256_Initial.cs",
-              "DocumentMoniker": "D:\\Api\\Infrastructure\\Migrations\\20250404135256_Initial.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250404135256_Initial.cs",
-              "ToolTip": "D:\\Api\\Infrastructure\\Migrations\\20250404135256_Initial.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20250404135256_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T13:52:56.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Api\\Api\\Program.cs",
-              "RelativeDocumentMoniker": "Api\\Program.cs",
-              "ToolTip": "D:\\Api\\Api\\Program.cs",
-              "RelativeToolTip": "Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T13:39:55.516Z",
+              "Title": "Domain",
+              "DocumentMoniker": "D:\\Api\\Application\\Domain.csproj",
+              "RelativeDocumentMoniker": "Application\\Domain.csproj",
+              "ToolTip": "D:\\Api\\Application\\Domain.csproj",
+              "RelativeToolTip": "Application\\Domain.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T14:57:21.827Z",
               "EditorCaption": ""
             }
           ]

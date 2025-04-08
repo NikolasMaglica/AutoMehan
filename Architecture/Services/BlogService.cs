@@ -11,6 +11,7 @@ namespace Application.Services
     public class BlogService : IBlogService
     {
         private readonly IBlogRepository _blogRepository;
+
         public BlogService(IBlogRepository blogRepository)
         {
             _blogRepository = blogRepository;
@@ -30,7 +31,7 @@ namespace Application.Services
             return await _blogRepository.GetAllAsync();
         }
 
-        public async Task<List<Blog>> GetByIdAsync(int id)
+        public async Task<Blog> GetByIdAsync(int id)
         {
             return await _blogRepository.GetByIdAsync(id);
         }

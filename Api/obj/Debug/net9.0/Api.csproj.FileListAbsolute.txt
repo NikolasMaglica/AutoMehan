@@ -25,7 +25,6 @@ D:\Api\Api\obj\Debug\net9.0\staticwebassets\msbuild.build.Api.props
 D:\Api\Api\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Api.props
 D:\Api\Api\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Api.props
 D:\Api\Api\obj\Debug\net9.0\staticwebassets.pack.json
-D:\Api\Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\Api\Api\obj\Debug\net9.0\Api.csproj.Up2Date
 D:\Api\Api\obj\Debug\net9.0\Api.dll
 D:\Api\Api\obj\Debug\net9.0\refint\Api.dll
@@ -170,3 +169,7 @@ D:\Api\Api\bin\Debug\net9.0\Infrastructure.dll
 D:\Api\Api\bin\Debug\net9.0\Application.pdb
 D:\Api\Api\bin\Debug\net9.0\Infrastructure.pdb
 D:\Api\Api\bin\Debug\net9.0\Domain.pdb
+D:\Api\Api\obj\Debug\net9.0\Api.sourcelink.json
+D:\Api\Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Api\Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Api\Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

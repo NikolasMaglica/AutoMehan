@@ -12,43 +12,48 @@ namespace Infrastructure.Repositories
 {
     public class BlogRepository : IBlogRepository
     {
-        private readonly DbContextCl _dbContext;
-        public BlogRepository(DbContextCl dbContextCl) 
+        private readonly DbContextCl _blogDbContext;
+
+        public BlogRepository(DbContextCl blogDbContext)
         {
-            _dbContext = dbContextCl;
+            _blogDbContext = blogDbContext;
         }
         public async Task<Blog> CreateAsync(Blog blog)
         {
-            await _dbContext.Blogs.AddAsync(blog);
-            await _dbContext.SaveChangesAsync();
+            await _blogDbContext.Blogs.AddAsync(blog);
+            await _blogDbContext.SaveChangesAsync();
             return blog;
         }
 
         public async Task<int> DeleteAsync(int id)
         {
-            return await _dbContext.Blogs
-                .Where(model => model.Id == id)
-                .ExecuteDeleteAsync();
-         }
-
-        public Task<List<Blog>> GetAllAsync()
-        {
-            throw new NotImplementedException();
+            return await _blogDbContext.Blogs
+                  .Where(model => model.Id == id)
+                  .ExecuteDeleteAsync();
         }
 
-        public Task<List<Blog>> GetByIdAsync()
+        public async Task<List<Blog>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _blogDbContext.Blogs.ToListAsync();
         }
 
-        public Task<List<Blog>> GetByIdAsync(int id)
+        public async Task<Blog> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _blogDbContext.Blogs.AsNoTracking()
+               .FirstOrDefaultAsync(b => b.Id == id);
         }
 
-        public Task<int> UpdateAsync(int id, Blog blog)
+        public async Task<int> UpdateAsync(int id, Blog blog)
         {
-            throw new NotImplementedException();
+            return await _blogDbContext.Blogs
+                  .Where(model => model.Id == id)
+                  .ExecuteUpdateAsync(setters => setters
+                    .SetProperty(m => m.Id, blog.Id)
+                    .SetProperty(m => m.Name, blog.Name)
+                    .SetProperty(m => m.Description, blog.Description)
+                    .SetProperty(m => m.Author, blog.Author)
+                    .SetProperty(m => m.ImageUrl, blog.ImageUrl)
+                  );
         }
     }
 }
